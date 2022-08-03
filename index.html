@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./main.css">
+    <title>03-08-prak</title>
+</head>
+
+<body>
+    <div class="container ">
+        <h1 class="text-center">
+            Movies catalog
+        </h1>
+        <div class="main-container d-flex gap-5">
+            <div class="main-container-left d-flex flex-column">
+                <div class="main-container-lef-input d-flex flex-column">
+                    <form action="input" class="d-flex flex-column gap-4 ">
+                        <input type="search" name="search" id="input-search" placeholder="ave " class="p-2">
+                        <input type="number" name="number" id="input-number" placeholder="5" class="p-2">
+                        <select name="select" id="select" class="p-2">
+                            <option value="all">all</option>
+                            <option value="iron-man">iron-man</option>
+                            <option value="avengers">avengers</option>
+                        </select>
+                        <select name="slelct" id="slelect" class="p-2">
+                            <option value="1">Rating (high to low)</option>
+                            <option value="2">Rating (high to low)</option>
+                            <option value="3">Rating (high to low)</option>
+                        </select>
+                        <button type="submit" class="bg-primary p-2 text-center border-0 text-light rounded-1 mb-4"> Search</button >
+                    </form>
+                </div>
+
+                <div class="main-container-left-info">
+                    <h2>Bookmarked movies</h2>
+                    <div class="main-container-left-blogs">
+                        <div class="main-container-left-blogs__blog ">
+                            <p>Avengers: Infinity War</p>
+                            <span>Remove</span>
+                        </div>
+                        <div class="main-container-left-blogs__blog">
+                            <p>The Avengers</p>
+                            <span>Remove</span>
+                        </div>
+                        <div class="main-container-left-blogs__blog border-bottom" >
+                            <p>12 Years a Slave</p>
+                            <span>Remove</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-container-right ">
+                <h3 >Search results: 39</h3>
+                <p>Us the form on the left to search for a movie</p>
+                <div class="main-container-right-movie d-flex gap-4 mt-4">
+                    <div class="main-container-right-avengers">
+                        <img src="./img/photo_2022-08-03_10-51-09.jpg" alt="ave" width="405" height="250">
+                        <h4 class="main-container-right-avengers__ave p-4">Avengers: Infinity War</h4>
+                        <div class="main-container-right-avengers__data d-flex align-items-center g-3">
+                            <img src="./img/photo_2022-08-03_10-50-09.jpg" alt="img" width="30"> 
+                            <p class="m-0">2018</p>
+                        </div>
+                        <div class="main-container-right-avengers__stars d-flex align-items-center ">
+                            <img src="./img/photo_2022-08-03_12-36-00.jpg" alt="star" width="30">
+                            <p>8.7</p>
+
+
+                        </div>
+                        <div class="main-container-right__watching">
+                            <a href="#">Watch trailer</a>
+                            <a href="#">More info</a>
+                            <a href="#">Bookmark</a>
+                        </div>
+                    </div>
+                    <div class="main-container-right-ironman">
+                        <img src="./img/photo_2022-08-03_10-51-09 (2).jpg" alt="ironman" width="400" height="250">
+                        <h4 class="main-container-right-ironman__iro p-4">The Avengers</h4>
+                        <div class="main-container-right-ironman__data d-flex align-items-center g-3">
+                            <img src="./img/photo_2022-08-03_10-50-09.jpg" alt="img" width="30px">
+                            <p class="m-0">2012</p>
+                        </div>
+                        <div class="main-container-right-ironman__stars d-flex align-items-center">
+
+                            <img src="./img/photo_2022-08-03_12-36-00.jpg" alt="star" width="30">
+                            <p>8.1</p>
+
+                        </div>
+                        <div class="main-container-right__watching">
+                            <a href="#">Watch trailer</a>
+                            <a href="#">More info</a>
+                            <a href="#">Bookmark</a>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

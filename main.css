@@ -1,0 +1,160 @@
+body {
+    font-family: sans-serif;
+}
+
+p {
+    margin: 0px;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.main-container-left {
+    width: 33.333333%;
+}
+
+.main-container-right {
+    width: 66.666666%;
+}
+
+.main-container-left-blogs__blog {
+    border: 1px solid rgb(151, 147, 147);
+    border-bottom: none;
+    padding: 20px;
+
+    border-radius: 3px;
+
+}
+
+.main-container-left-blogs__blog p {
+    margin-bottom: 16px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+input,
+select {
+    border-radius: 3px;
+    border: 1px solid rgb(151, 147, 147);
+}
+
+.main-container-left-blogs__blog span {
+    padding: 10px;
+    background-color: brown;
+    border-radius: 3px;
+    color: aliceblue;
+}
+
+.main-container-left-info h2 {
+    font-weight: 600;
+}
+
+.main-container-right h3 {
+    font-weight: 600;
+}
+
+.main-container-right>p {
+    padding: 25px;
+    background-color: #D5EAEF;
+    border-radius: 5px;
+    font-family: 400;
+}
+
+.main-container-right-avengers {
+    border: 1px solid rgb(151, 147, 147);
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+
+
+
+.main-container-right-ironman {
+    border: 1px solid rgb(151, 147, 147);
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+.main-container-right-avengers__data {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.main-container-right-ironman__data {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 25px;
+
+}
+
+.main-container-right-avengers__stars {
+    gap: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-container-right-ironman__stars {
+    gap: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-container-right__watching {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 40px;
+
+}
+
+.main-container-right__watching a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid rgb(103, 103, 240);
+    color: rgb(103, 103, 240);
+    transition: all  ease 0.5s;
+
+}
+
+.main-container-right__watching a:hover {
+    border: 1px solid rgb(112, 177, 15);
+    color: rgb(112, 177, 15);
+}
+
+ul {
+    display: flex;
+    margin-left: 40%;
+    margin-top: 40px;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    padding: 8px;
+    border: 1px solid rgb(163, 161, 161);
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all ease 0.5s;
+}
+
+ul li a:hover {
+    background-color: rgb(103, 103, 240);
+    color: #D5EAEF;
+}
